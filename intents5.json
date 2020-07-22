@@ -1,0 +1,82 @@
+{"intents":[
+	{
+	"tag":"others",
+	"patterns":[""],
+	"responses":["I am still learning, Contact us on our emailid"],"context_set":""
+},
+	
+
+	
+
+	{"tag":"greeting",
+	 "patterns":["hi","How are you","Is anyone there?","hello","Good day","Good morning","Good Evening","How do you do","Are you available?","Is anyone available?","I need a help,anyone there?" , "Anyone there to help?" ,"Hello, I need some help" , "Hey" , "How is it going?" ],
+	 "responses":["Hello ,How can I help you","Hi there","Hello","Hello sir","welcome How can i help you?"]
+	},
+	{"tag":"goodbye",
+	 "patterns":["Bye","see you later","Good bye","Thank you","See you" ,"Talk to you later", "Bye-Bye" , "Thanks" , "Good day" ],
+	 "responses":["see you later,thanks for visiting","Have a nice day","Bye! come back soon again."]
+	},
+	{"tag":"thanks",
+	 "patterns":["Thanks","Thank you","That's helpful" , "That's good" , "Very nice", "That was very helpful" ,"Good"],
+	 "responses":["Happy to help!","Any time!","My pleasure"]
+	},
+	{"tag":"hours",
+	 "patterns":["What hours are you open?","what are your hours?","when are you open?","What are the timings?","From what time are you open?","When it opens?","When it starts in the morning?","Till what time are you open?","When are you going to start?","How many hours it is opened?","When are you going to start?" ,"From what time are you available?" ,"Are you available at any time?"],
+	 "responses":["we are open every day 9am-9pm","Our hours are 9am-9pm every day"]
+	},
+	{"tag": "payments",
+    	 "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?", "What type of payments are available?", "Do you accept online payment?" ,"Do you accept cash?" ,"Do you accept debit cards?" , "Is online payment available?" , "Do you accept UPIs?" , "Do you accept all types of cards?", "How can I do online payment?" ,"Which UPI-based payments are available?" ],
+         "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+  	},
+  	{"tag": "opentoday",
+    	 "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?", "Are you available today?" , "Is it open today?", "Are you working today?" , "Till what time are you available today?"],
+    	 "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+  	},
+  	{"tag": "customercare",
+         "patterns": ["i want to talk to customercare person","can I talk with customercare ","Give me you company mobile number" , "To whom can i contact?" , "What is customercare number?" , "Can I contact the customercare person? " ,"Can you connect me to customercare person?" ],
+    	 "responses": [" please call to this number 1-800-9007 ", "You can contact this number 1-800-9000"]
+    	},
+	{"tag":"Details",
+	 "patterns":["I want to know about your company details","Can you give me your company details","send me details about your company" , "Give the details of your company" , "Tell me about your company?" , "How can I know about your company?" , "What is your company official website?" ,"Can I know about your company?" , ""],
+	 "responses":["you can visit our official website","visit our website for complete details","visit website for details"]
+	},
+	{"tag":"help ",
+	 "patterns":["How can you help","Can you help me","how will you help me ", "Will you be able to help me?" , "I need a help" , "I have some questions, how can you help me?" , "Can you answer my questions?" , "Can you provide solution to me?" , "Can you provide some help?"],
+	 "responses":["I can guide you ","I will answer your questions","I may help to answer your quaries"]
+	},
+	{"tag":"payements",
+	 "patterns":["How can i do the payments?","what are the payment methods?","can i pay with Debit cards?","How to make payments?","How to pay subscription fee?","How i can pay the subscription fee? ","is it necessary to have a paypal account to make payments?"],
+	 "responses":["You can pay using your Paypal account, Debit card or credit card.  These are the complete details on payments"]
+	},
+
+	{"tag":"register",
+	 "patterns":["I'm looking for a job. How do I start?","How can i register as a talent?","How can a talent register to your portal?","I am looking for a job, can you help me?","How to register as a talent?","How to apply for jobs?","How can a talent register for jobs?"],
+	 "responses":[" Visit the first page of the site and click on the sign-up button to begin the process."]
+	},
+	{"tag":"after_register",
+	 "patterns":["What after sign-up?","What i have to do after sign up is complete?","What to do after sign-up?","I had signed-up, what i have to do next?","Tell me the procedure after sign-up.","What after signup?","I have signed up as a talent, whats next?"],
+	 "responses":["Congratulations! You are now eligible to take our quiz. The quiz is based on the field you opted for when you signed up. Be sure to pay attention; you must score 60% or higher to move onto the next step."]
+	},
+	
+	{"tag":"quiz",
+	 "patterns":["What is the quiz all about?","What should i except in the quiz?","What are the topics for the quiz?","What will the quiz be based on ?","Tell me more about quiz","Tell me about the quiz","What is the quiz all about?"],
+	 "responses":["The quiz will be related to the field that talent had choosed for."]
+	},
+	{"tag":"cost",
+	 "patterns":["I want a job, how much did it cost for a talent?","What is the fee for a talent?","How much i need to pay as a talent?","I am a talent, what is the fee?","What is the registeration fee for a talent?"],
+	 "responses":["Its free but you need to pass the quiz with a score of  more than 60% and than you are eligible to take goods. "]
+	},
+	{"tag":"verification",
+	 "patterns":["How do you verify information from employers and talents?","What is the verification procedure for accounts?"],
+	 "responses":["Hala Talents is exclusive. Applicants are required to pass a quiz to qualify themselves. Employers are properly vetted to ensure their information is accurate. Anyone found falsifying information will be permanently banned from using our services."]
+	},
+	{"tag":"see",
+	 "patterns":[" How do I find the right candidates?","As a company how can i select right candidates?","How to choose good candidates using your portal?","How to select good candidates?","How to select right candidates?","What is the selection procedure of candidates?"],
+	 "responses":["Our process is automated. You simply sign up, and we connect the talent to you. We only provide applicants that are relevant to you and your requirements."]
+
+
+	},{"tag":"application",
+	 "patterns":["Does Hala Talents contact interested parties for the employer/talent?","How does Hala Talents search for "],
+	 "responses":["The beauty of it is you don't! Our AI automatically matches you up to employers. We take your skills and other factors into consideration and match you with organizations that need you! Make sure your profile is on point!"]
+
+	}]}

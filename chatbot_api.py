@@ -9,14 +9,7 @@ app=Flask(__name__)
 
 @app.route('/api')
 def get_response():
-    elevator1={"Assertiveness_keyword":"ass",
-            "Assertiveness_per":"40",
-            "sincerity":"30",
-            "sincerity_keyword":"sin",
-            "disposition_per":"40",
-            "disposition_keyword":"disp"
-           }
-    url="http://halatalentapi.herokuapp.com/result/elevator/5f0ee8f64698770004884af8"
+    
                                                                 
     r = requests.patch(url, jsonify(elevator1))
 ##    if "text" in request.args:
